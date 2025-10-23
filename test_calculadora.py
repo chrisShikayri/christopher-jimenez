@@ -6,7 +6,7 @@ class TestCalculadora(unittest.TestCase):
 
     # === Pruebas unitarias ===
     def test_sumar(self):
-        self.assertEqual(sumar(2, 3), 10)
+        self.assertEqual(sumar(2, 3), 5)
 
     def test_dividir_por_cero(self):
         with self.assertRaises(ValueError):
